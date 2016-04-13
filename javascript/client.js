@@ -23,7 +23,7 @@ $(document).ready(function()
     password: 'bf01d752-6cc5-4f47-82ce-1797ea4a76e1'
     });
 
-		appbaseRef.delete({
+		/*appbaseRef.delete({
 			type: "messages",
 			body:{
 				query:{
@@ -34,7 +34,7 @@ $(document).ready(function()
 			console.log("Successfully deleted");
 		}).on('error', function(err){
 			console.log("Deleted error");
-		});
+		});*/
     //Loading message history
 		appbaseRef.search({
 		type: "messages",
