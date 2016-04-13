@@ -1,0 +1,9 @@
+{
+  "name": "CallBell",
+  "version": "0.0.1",
+  "description": "A multithreaded chat web application",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.5"
+  }
+}

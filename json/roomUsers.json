@@ -1,0 +1,14 @@
+[
+  {
+    "userID": "1",
+    "username": "xyz",
+    "rooms": ["room1", "room2"],
+    "status": "online"
+  },
+  {
+    "userID": "2",
+    "username": "abc",
+    "rooms": ["room1", "room2"],
+    "status": "offline"
+  }
+]

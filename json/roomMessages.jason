@@ -1,0 +1,11 @@
+[
+  {
+    "roomID": "1",
+    "messageID": "msg1",
+    "userID": "ID1",
+    "username": "xyz",
+    "message": "Hello world",
+    "addressedTo": "abcUser",
+    "timestamp": "4 April 2016 14:00"
+  }
+]
