@@ -8,11 +8,14 @@ var express=require("express");
 var app = express();
 var server = require('http').createServer(app);
 var io =  require('socket.io')(server);
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 //start server
-server.listen(port, function(){
+/*server.listen(port, function(){
 console.log('listening on *:3000');
+});*/
+server.listen(port,'45.55.167.17', function(){
+  console.log("listening");
 });
 
 //for configuring static files with html
